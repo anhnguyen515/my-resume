@@ -9,20 +9,20 @@ html {
   padding: 0;
 }
 body {
-  background-color: #ddd;
   color: rgb(85, 85, 85);
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
-  padding: 70px 0;
+  padding: 10px 0;
 }
 a {
   color: inherit;
 }
 .container {
   background-color: white;
+  box-shadow: 0 0 5px black;
   margin: auto;
   min-height: 100vh;
-  width: 800px;
+  width: 960px;
 
   /* flexbox kicks in */
   display: flex;
@@ -52,11 +52,11 @@ a {
 .section--heading {
   background-color: rgba(0, 0, 0, 0.3);
   margin-top: 20px;
-  padding: 5px 20px;
+  padding: 5px 30px;
 }
 .left--section-detail > div {
   font-size: 13px;
-  padding: 0 20px;
+  padding: 0 30px;
 }
 .left--section-detail > div > * {
   margin: 15px 0;
