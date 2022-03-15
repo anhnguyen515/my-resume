@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
+  font-size: 22px;
 }
+
 *,
 *::after,
 *::before {
@@ -8,104 +10,134 @@ html {
   margin: 0;
   padding: 0;
 }
+
 body {
   color: rgb(85, 85, 85);
   font-family: "Roboto", sans-serif;
   letter-spacing: 1px;
-  width: 960px;
   margin: 0 auto;
 }
+
 a {
   color: inherit;
 }
+
 .container {
   background-color: white;
   box-shadow: 0 0 5px black;
   margin: auto;
-  min-height: 100vh;
 
   /* flexbox kicks in */
   display: flex;
 }
+
 .left--section {
-  background-color: #d11e2f;
+  background-color: #f04c40;
   color: white;
   flex-basis: 35%;
 }
+
 .right--section {
   flex-basis: 65%;
-} /*=====LEFT SECTION=====*/
+}
+
+/*=====LEFT SECTION=====*/
 .left--section-general {
   text-align: center;
 }
+
 .left--section-general img {
   border: 3px solid white;
   border-radius: 50%;
   width: 50%;
   margin-top: 30px;
 }
+
 .left--section-general h1 {
   margin: 0 0 10px;
 }
+
 .section--heading {
-  background-color: rgba(0, 0, 0, 0.3);
-  margin-top: 20px;
-  padding: 5px 30px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin-top: 50px;
+  padding: 5px 50px;
 }
+
 .left--section-detail > div {
-  padding: 0 30px;
+  padding: 0 50px;
 }
+
 .left--section-detail > div > * {
-  margin: 15px 0;
+  margin: 25px 0 35px;
 }
+
 .contact {
   text-decoration: none;
 }
+
 .margin-right {
   margin-right: 10px;
 }
+
 .bold {
   font-weight: bold;
-  font-size: 1.125rem;
+  font-size: 1.25rem;
 }
+
 .left--section-list li {
   margin: 5px 0 0 20px;
-} /*=====RIGHT SECTION=====*/
-.right--section {
-  padding: 50px 30px;
 }
+
+/*=====RIGHT SECTION=====*/
+.right--section {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .right--section > div {
   margin-bottom: 40px;
 }
+
 .right--section-heading {
-  color: #d11e2f;
+  color: #f04c40;
   display: flex;
   align-items: center;
 }
+
 .right--section-content {
   line-height: 24px;
-  margin-top: 15px;
+  margin-top: 25px;
 }
+
 .right--section-content > div {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
+
 .right--section-content ul {
   margin-top: 10px;
-  margin-left: 13px;
+  margin-left: 1rem;
 }
+
 .right--section-content ul li {
   margin: 2px 0 5px;
 }
+
 .right--section-icon {
-  background-color: #d11e2f;
+  background-color: #f04c40;
   border-radius: 50%;
   color: white;
   font-size: 0.875rem;
   margin-right: 10px;
   padding: 7px;
 }
+
 .subheading {
   color: #aaa;
+  display: flex;
+  gap: 15px;
+  margin-top: 0.25rem;
 }
 
 .italic {
