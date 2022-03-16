@@ -76,6 +76,7 @@ a {
 }
 
 .margin-right {
+  width: 1rem;
   margin-right: 10px;
 }
 
@@ -142,4 +143,15 @@ a {
 
 .italic {
   font-style: italic;
+}
+
+.fav--project {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fav--project-icon {
+  font-size: 1rem;
+  color: #f04c40;
 }
