@@ -1,1 +1,1 @@
-# Intern Front-end Web Developer Resume
+# Front-end Web Developer Resume
