@@ -32,7 +32,7 @@ a {
 }
 
 .left--section {
-  background-color: #f04c40;
+  background-color: #adadad;
   color: white;
   flex: 1;
 }
@@ -103,7 +103,7 @@ a {
 }
 
 .right--section-heading {
-  color: #f04c40;
+  color: #adadad;
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -128,7 +128,7 @@ a {
 }
 
 .right--section-icon {
-  background-color: #f04c40;
+  background-color: #adadad;
   border-radius: 50%;
   color: white;
   font-size: 0.875rem;
@@ -163,5 +163,5 @@ a {
 
 .fav--project-icon {
   font-size: 1rem;
-  color: #f04c40;
+  color: #adadad;
 }
