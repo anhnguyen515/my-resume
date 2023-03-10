@@ -1,3 +1,8 @@
+:root {
+  --primary: #64748b;
+  --star: #f59e0b;
+}
+
 html {
   box-sizing: border-box;
   font-size: 20px;
@@ -32,7 +37,7 @@ a {
 }
 
 .left--section {
-  background-color: #adadad;
+  background-color: var(--primary);
   color: white;
   flex: 1;
 }
@@ -103,7 +108,7 @@ a {
 }
 
 .right--section-heading {
-  color: #adadad;
+  color: var(--primary);
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -128,7 +133,7 @@ a {
 }
 
 .right--section-icon {
-  background-color: #adadad;
+  background-color: var(--primary);
   border-radius: 50%;
   color: white;
   font-size: 0.875rem;
@@ -163,5 +168,9 @@ a {
 
 .fav--project-icon {
   font-size: 1rem;
-  color: #adadad;
+  color: var(--primary);
+}
+
+.yellow-star {
+  color: var(--star);
 }
