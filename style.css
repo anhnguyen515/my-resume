@@ -93,6 +93,7 @@ a {
 
 .left--section-list li {
   margin: 5px 0 0 20px;
+  line-height: 1.6rem;
 }
 
 /*=====RIGHT SECTION=====*/
@@ -177,15 +178,17 @@ a {
 .fav--project {
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: space-between;
   margin-bottom: 10px;
 }
 
-.fav--project-icon {
-  font-size: 1rem;
-  color: var(--primary);
+.fav--project-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .yellow-star {
+  font-size: 1rem;
   color: var(--star);
 }
